@@ -17,4 +17,12 @@ body {
   right: 0;
   bottom: 0;
   background-color: seagreen;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonNav {
+  margin: 10px;
+  width: 50px;
+  height: 30px;
 }
