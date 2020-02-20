@@ -22,7 +22,27 @@ body {
 }
 
 .buttonNav {
+  font-size: 1.2rem;
   margin: 10px;
   width: 50px;
   height: 30px;
+  background-color: skyblue;
+  border: none;
+  outline: none;
+  cursor: zoom-in;
+}
+
+.buttonNav:hover {
+  transform: scale(1.5);
+  transition: ease-in-out 0.2s;
+}
+
+.buttonNav:active {
+  transform: scale(2.5);
+  background-color: yellow;
+  transition: ease-in-out 0.2s;
+}
+
+.active {
+  background-color: tomato;
 }
