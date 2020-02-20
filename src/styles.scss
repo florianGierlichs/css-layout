@@ -4,10 +4,17 @@
   box-sizing: border-box;
 }
 
+$primary-color: floralwhite;
+$secondary-color: seagreen;
+$third-color: purple;
+$fourth-color: skyblue;
+$fith-color: yellow;
+$sixth-color: tomato;
+
 body {
   margin: 0;
-  background-color: floralwhite;
-  color: purple;
+  background-color: $primary-color;
+  color: $third-color;
   font-size: 16px;
 }
 
@@ -16,7 +23,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: seagreen;
+  background-color: $secondary-color;
   display: flex;
   justify-content: center;
 }
@@ -26,7 +33,7 @@ body {
   margin: 10px;
   width: 50px;
   height: 30px;
-  background-color: skyblue;
+  background-color: $fourth-color;
   border: none;
   outline: none;
   cursor: zoom-in;
@@ -39,10 +46,10 @@ body {
 
 .buttonNav:active {
   transform: scale(2.5);
-  background-color: yellow;
+  background-color: $fith-color;
   transition: ease-in-out 0.2s;
 }
 
 .active {
-  background-color: tomato;
+  background-color: $sixth-color;
 }
