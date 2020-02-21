@@ -47,4 +47,15 @@ body {
   background-color: tomato;
 }
 
+.box {
+  display: flex;
+}
+
+.box__test {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  margin: 5px;
+}
+
 /*# sourceMappingURL=styles.css.map */

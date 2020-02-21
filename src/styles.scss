@@ -1,15 +1,10 @@
+@import "variables";
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
 }
-
-$primary-color: floralwhite;
-$secondary-color: seagreen;
-$third-color: purple;
-$fourth-color: skyblue;
-$fith-color: yellow;
-$sixth-color: tomato;
 
 body {
   margin: 0;
@@ -52,4 +47,15 @@ body {
 
 .active {
   background-color: $sixth-color;
+}
+
+.box {
+  display: flex;
+}
+
+.box__test {
+  width: $primary-width;
+  height: $primary-height;
+  background-color: $sixth-color;
+  margin: 5px;
 }
